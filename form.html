@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<!--This is the same assignment as Mini Project #4, so I'm just doing the bare minimum-->
+	<h1>Sum the numbers between 1 and 100</h1>
+	<form>
+    	<button type="submit" onclick="sumNumbers()"> Submit </button>
+    </form>
+	<script>
+	function sumNumbers(){
+		var x = 0;
+		for(let i = 1; i <= 100; i++){
+			x += i;
+		}
+		document.write("The sum is: " + x);
+	}
+	</script>
+</body>
+</html>
